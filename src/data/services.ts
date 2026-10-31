@@ -132,7 +132,7 @@ export const servicesData: ServiceItem[] = [
       'Emergency shut-off valve locations tagged and verified'
     ],
     icon: 'AlertTriangle',
-    image: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'storm-preparation',
@@ -158,6 +158,6 @@ export const servicesData: ServiceItem[] = [
       'Automatic placement on priority post-storm inspection roster'
     ],
     icon: 'ShieldAlert',
-    image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80'
   }
 ];
