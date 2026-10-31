@@ -33,7 +33,7 @@ export default {
       },
       fontFamily: {
         sans: ['Plus Jakarta Sans', 'Inter', 'system-ui', 'sans-serif'],
-        serif: ['Cinzel', 'Playfair Display', 'Georgia', 'serif'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
       },
       boxShadow: {
         'premium': '0 10px 30px -10px rgba(16, 42, 67, 0.12), 0 4px 6px -2px rgba(16, 42, 67, 0.04)',

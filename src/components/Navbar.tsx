@@ -107,7 +107,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuote, onSelectService }) 
           </a>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden lg:flex items-center space-x-6 xl:space-x-8 text-sm font-medium text-cream/90">
+          <div className="hidden lg:flex items-center space-x-5 xl:space-x-7 text-[13px] xl:text-sm font-medium text-cream/90">
             {/* Services Dropdown */}
             <div
               className="relative"
@@ -119,12 +119,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuote, onSelectService }) 
                 className="inline-flex items-center gap-1 hover:text-gold transition-colors py-2 focus:outline-none"
               >
                 Services
-                <ChevronDown className="w-4 h-4 text-gold/80" />
+                <ChevronDown className="w-3.5 h-3.5 text-gold/80" />
               </a>
 
               {servicesDropdownOpen && (
                 <div className="absolute top-full left-0 w-64 pt-2 z-50">
-                  <div className="bg-navy-deep border border-gold/30 rounded-xl shadow-elevated p-2 space-y-1">
+                  <div className="bg-navy-deep/98 backdrop-blur-md border border-gold/30 rounded-xl shadow-elevated p-2 space-y-1">
                     {servicesList.map((service) => (
                       <button
                         key={service.id}
@@ -169,18 +169,18 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuote, onSelectService }) 
           </div>
 
           {/* Desktop Action CTAs */}
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden md:flex items-center gap-3 pl-4 border-l border-white/10">
             <a
               href="tel:+19419790675"
-              className="px-3.5 py-2 rounded-lg text-xs font-semibold text-cream bg-white/5 hover:bg-white/10 border border-white/10 transition-colors inline-flex items-center gap-2"
+              className="px-3.5 py-2 rounded-xl text-xs font-semibold text-cream bg-white/5 hover:bg-white/10 border border-white/10 transition-colors inline-flex items-center gap-2 group"
             >
-              <Phone className="w-3.5 h-3.5 text-gold" />
+              <Phone className="w-3.5 h-3.5 text-gold group-hover:scale-110 transition-transform" />
               <span>(941) 979-0675</span>
             </a>
 
             <button
               onClick={() => onOpenQuote()}
-              className="px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider text-navy-deep bg-gradient-to-r from-gold-light via-gold to-gold hover:from-gold hover:to-gold-dark shadow-md hover:shadow-gold-glow transition-all duration-300"
+              className="px-4 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider text-navy-deep bg-gradient-to-r from-gold-light via-gold to-gold hover:from-gold hover:to-gold-dark shadow-md hover:shadow-gold-glow transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0"
             >
               Get a Quote
             </button>
