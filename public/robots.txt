@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solutions-quasar.github.io/safe-haven-swfl/sitemap.xml
